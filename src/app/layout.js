@@ -1,6 +1,8 @@
 
 //import "./globals.css";
+import "../styles/globals.css";
 import Nav from "@/components/Nav";
+import Header from "@/components/Header";
 
 export const metadata = {
   title: "Hola mundo",
@@ -12,13 +14,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
          <div className="layout">
-             <Nav />
+              <Nav />
             <div className="contenido">
-                <header>
-                    <h1>Home</h1>
-                    <div>Fecha actual</div>
-                    <button>+ Nueva Actividad</button>
-                </header>
+              <Header />
                   {children}
             </div>
           </div>

@@ -7,8 +7,6 @@ export const metadata = {
 export default function MiCalendario() {
   return (
     <div className="contenido">
-      <h1>Mi calendario</h1>
-
       <main>
         <section className="section">
           <div className="main1">

@@ -8,7 +8,6 @@ export const metadata = {
 export default function Home() {
   return (
     <div className="">
-      <h1>Hola soy el home</h1>
        <main>
                 <section className="section">
                     <div className="main1">
